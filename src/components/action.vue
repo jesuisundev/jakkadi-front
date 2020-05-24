@@ -1,18 +1,16 @@
 <template>
   <div class="callToAction">
-    <div class="apps">
-      <h1>{{ message }}</h1>
-    </div>
+    <h1>{{ message }}</h1>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'callToAction',
-  props: {
-    message: String
+  export default {
+    name: 'callToAction',
+    props: {
+      message: String
+    }
   }
-}
 </script>
 
 <style scoped>
